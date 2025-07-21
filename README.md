@@ -1,4 +1,4 @@
-# 🧑‍💻The Web Developer Bootcamp – Code Journey
+# 🧑‍💻The Web Developer Bootcamp Journey
 
 Welcome to my learning repository! This is my complete code and project journey while going through **Colt Steele's Web Developer Bootcamp** on Udemy.
 
