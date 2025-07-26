@@ -1,4 +1,4 @@
-# 🧑‍💻The Web Developer Bootcamp – Code Journey
+# 🧑‍💻The Web Developer Bootcamp Journey
 
 Welcome to my learning repository! This is my complete code and project journey while going through **Colt Steele's Web Developer Bootcamp** on Udemy.
 
@@ -82,12 +82,9 @@ All code here is written and practiced as part of my personal learning journey. 
 
 To go from **zero to full-stack web developer**, building real-world web apps with a strong foundation in both **frontend and backend** development.
 
-This repo is my **coding notebook**, where I learn by building and breaking things.
+## 🔗 Follow My Journey
+> 👤 Maintained by [ogcz](https://github.com/og-cz)  
+> 📷 Instagram [@_ogcz](https://www.instagram.com/_ogcz/)  
+> 🌴 Linktr https://linktr.ee/ogcz
 
----
 
-## 📝 Note
-
-This is a personal learning repo, not a starter template or public project. Feel free to explore for inspiration or to see how the course progresses!
-
----

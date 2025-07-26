@@ -1,0 +1,52 @@
+<h1>radiobuttons checkboxes & selects</h1>
+
+<!--checkbox-->
+<!-- 🟢 Checkboxes: Select multiple options -->
+<form action="">
+  <p>
+    <label for="food1">donuts</label>
+    <input type="checkbox" name="food" id="food1" value="donuts" checked />
+
+    <label for="food2">pizza</label>
+    <input type="checkbox" name="food" id="food2" value="pizza" />
+
+    hotdogs
+    <input type="checkbox" name="food" id="food3" value="hotdogs" />
+  </p>
+
+  <button>submit</button>
+</form>
+
+<!-- 🟠 Radio Buttons: Select one option only -->
+<!--we must have exact name so one can only be choosen-->
+<!--the value attribute specifies what gets submitted when the form is sent and that particular radio button is selected-->
+<form action="">
+  <p>
+    <label for="agree">agree</label>
+    <input type="radio" name="answer" id="agree" value="agree" />
+
+    <label for="disagree">disagree</label>
+    <input type="radio" name="answer" id="disagree" value="disagree" />
+
+    <label for="no comment">no comment</label>
+    <input type="radio" name="answer" id="no comment" value="no comment" />
+  </p>
+
+  <input type="submit" value="submit" />
+</form>
+
+<!--select is basically a drop down menu-->
+<!-- 🔵 Select Dropdown: Choose one (or multiple with 'multiple') -->
+<form action="">
+  <label for="instrument">your favorite instrument</label>
+  <select name="answer" id="instrument">
+    <option value="" selected>--please choose an option--</option>
+    <option value="euphonium">euphonium</option>
+    <option value="trumpet">trumpet</option>
+    <option value="trombone">trombone</option>
+    <option value="saxophone">saxophone</option>
+    <option value="clarinet">clarinet</option>
+  </select>
+
+  <input type="submit" value="submit" />
+</form>

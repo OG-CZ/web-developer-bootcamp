@@ -1,0 +1,22 @@
+<h1>forms validations</h1>
+
+<form action="">
+  <p>
+    full name
+    <input type="text" name="fullname" required />
+    <br />
+
+    user name
+    <input type="text" name="username" min="5" maxlength="25" required />
+    <br />
+
+    email
+    <input type="email" pattern="^[^@]+@[^@]+\.com$" required />
+    <br />
+
+    url
+    <input type="url" required />
+  </p>
+
+  <button>submit</button>
+</form>
