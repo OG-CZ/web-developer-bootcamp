@@ -1,0 +1,18 @@
+h1,
+h2 {
+  color: green;
+  background-color: lightblue;
+}
+
+button {
+  color: white;
+  background-color: black;
+}
+
+p {
+  color: maroon;
+  background: bisque;
+}
+
+/* background is a shorthand property that can include multiple background-related values (like color, image, position, repeat, etc.),
+while background-color only sets the background color.*/

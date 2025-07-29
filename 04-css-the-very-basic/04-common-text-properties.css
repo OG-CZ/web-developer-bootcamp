@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  font-weight: 100;
+  text-decoration: underline wavy orange;
+}
+
+h2 {
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+p {
+  color: darkgoldenrod;
+  line-height: 1.5; /* this means 1.5x the normal line height*/
+}
+
+a {
+  text-decoration: none;
+}
