@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .adjacent h1 + p {
+        color: darkred;
+        font-size: 15px;
+      }
+
+      .direct > p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="adjacent">
+      <h1>adjacent example</h1>
+      <p>This paragraph should be dark red and 15px.</p>
+      <p>not selected cause it does not come after h1</p>
+
+      <h2>footer</h2>
+      <p>This one should NOT be affected.</p>
+    </div>
+
+    <div class="direct">
+      <h1>direct child example</h1>
+      <p>This one should be blue.</p>
+      <p>This one is not adjacent to h1 — so it’s not blue.</p>
+    </div>
+  </body>
+</html>

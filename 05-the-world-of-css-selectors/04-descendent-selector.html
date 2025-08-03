@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>descendant selector</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      .main li {
+        color: green;
+      }
+      .main p {
+        color: green;
+      }
+
+      .foot p {
+        color: red;
+      }
+      .foot li {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>descendant selector example</h1>
+      <p>This is the main section.</p>
+
+      <ul>
+        <li>back</li>
+        <li>next</li>
+        <li>current</li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <footer class="foot">
+      <!--! We don't want this to be styled like the blog post -->
+      <p>This is a footer section.</p>
+
+      <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+    </footer>
+  </body>
+</html>
