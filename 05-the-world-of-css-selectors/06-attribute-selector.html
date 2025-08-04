@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      input[type="password"] {
+        color: darkred;
+      }
+
+      section[class="upper"] {
+        background-color: rgb(0, 211, 211);
+      }
+
+      a[href*="brave"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>attribute selector</h1>
+
+    <form action="">
+      <input type="text" placeholder="login" />
+
+      <h3>this would work on this only cause of input[type="password"]</h3>
+      <input type="password" placeholder="password" />
+
+      <section class="upper">
+        <span
+          ><p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            iure eos, dolore libero quo suscipit quas quibusdam iusto eum
+            assumenda ducimus perferendis! Ducimus vero, aperiam placeat illo
+            quis debitis voluptas!
+          </p></span
+        >
+
+        <span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            beatae voluptatibus fuga quod ipsa placeat nihil commodi, rem
+            aspernatur dolores aperiam dolore minus. Cum illo odio sapiente ab,
+            iusto quasi! Quis dicta cum rerum tempora a quisquam suscipit
+            aliquam laboriosam, enim laborum est! Non velit architecto, autem ea
+            esse cupiditate enim pariatur aut in. Cum, fuga excepturi!
+            Provident, quam cumque.
+          </p>
+        </span>
+      </section>
+
+      <section class="lower">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis id
+          soluta modi harum quibusdam repellat odit impedit, ipsam amet at quos?
+          Aspernatur voluptas laborum eligendi non recusandae minima ducimus
+          fugiat.
+        </p>
+      </section>
+
+      <footer>
+        <ul>
+          <li><a href="">firefox</a></li>
+          <li class="brave"><a href="https://search.brave.com/">brave</a></li>
+          <li><a href="">yandex</a></li>
+        </ul>
+      </footer>
+    </form>
+  </body>
+</html>

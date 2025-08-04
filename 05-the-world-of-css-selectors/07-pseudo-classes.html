@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*  hover */
+      button:hover {
+        background-color: aqua;
+      }
+
+      .post button:hover {
+        background-color: rgb(26, 255, 0);
+      }
+
+      a:hover {
+        color: rgb(255, 0, 255);
+        font-weight: 700;
+        text-decoration: underline;
+      }
+
+      /* active */
+
+      button:active {
+        background-color: black;
+        color: wheat;
+      }
+
+      /* check */
+
+      input[type="checkbox"] {
+        accent-color: chocolate;
+      }
+
+      input:checked {
+        outline: 2px solid green;
+      }
+
+      /* nth-of-type(n) */
+      .group section:nth-of-type(2n) {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <!--button:hover affects all button-->
+      <button>Submit</button>
+    </form>
+
+    <span class="post">
+      <p>
+        <a href="">Lorem</a>, ipsum dolor sit amet consectetur adipisicing elit.
+        Optio praesentium ullam laboriosam ea itaque,
+        <a href="">dolor</a> voluptatibus nulla eveniet quam voluptate, nemo
+        adipisci. Temporibus veritatis vero doloremque nam autem, ut vel.
+        <a href="">Aspernatur</a> odio assumenda aut inventore repellat officia.
+        Laborum repudiandae assumenda ut quisquam earum unde sequi, a culpa
+        nulla possimus, ducimus qui! Assumenda saepe neque inventore corrupti
+        provident! Repudiandae, error exercitationem. Minus corporis quasi
+        maiores ea ipsa quisquam, maxime incidunt fugiat. Ab
+        <a href="">perferendis</a> fugiat delectus consequatur reprehenderit
+        debitis nemo, quaerat nobis laboriosam temporibus
+        <a href="">dignissimos</a> dolores veritatis, incidunt, veniam ratione
+        magnam quam?
+      </p>
+      <!--.post button:hover specifical design-->
+      <form action="">
+        <button>submit</button>
+        <!--input:checked-->
+        <input type="checkbox" name="" id="" />
+      </form>
+
+      <br />
+
+      <span class="group">
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos,
+          quo aut blanditiis perspiciatis eveniet, fugiat voluptatum, ratione
+          deleniti sequi nam optio excepturi ab veritatis unde odio ipsam nisi
+          nemo.
+        </section>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos,
+          quo aut blanditiis perspiciatis eveniet, fugiat voluptatum, ratione
+          deleniti sequi nam optio excepturi ab veritatis unde odio ipsam nisi
+          nemo.
+        </section>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos,
+          quo aut blanditiis perspiciatis eveniet, fugiat voluptatum, ratione
+          deleniti sequi nam optio excepturi ab veritatis unde odio ipsam nisi
+          nemo.
+        </section>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos,
+          quo aut blanditiis perspiciatis eveniet, fugiat voluptatum, ratione
+          deleniti sequi nam optio excepturi ab veritatis unde odio ipsam nisi
+          nemo.
+        </section>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos,
+          quo aut blanditiis perspiciatis eveniet, fugiat voluptatum, ratione
+          deleniti sequi nam optio excepturi ab veritatis unde odio ipsam nisi
+          nemo.
+        </section>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos,
+          quo aut blanditiis perspiciatis eveniet, fugiat voluptatum, ratione
+          deleniti sequi nam optio excepturi ab veritatis unde odio ipsam nisi
+          nemo.
+        </section>
+      </span>
+    </span>
+  </body>
+</html>
