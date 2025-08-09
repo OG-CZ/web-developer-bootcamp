@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        border-radius: 5%;
+      }
+      h1 {
+        width: 200px;
+        color: red;
+      }
+      #one {
+        background-color: rgba(255, 0, 0, 0.721);
+        border: 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        box-sizing: border-box; /* this corresponds to the actual width and heigh we used it will be exact*/
+
+        border-left-color: blue;
+      }
+
+      #two {
+        background-color: rgba(255, 0, 0, 0.608);
+        border-style: dashed;
+        border-width: 5px;
+        border-color: black;
+        box-sizing: border-box;
+      }
+      #three {
+        background-color: rgba(255, 0, 0, 0.25);
+        border-style: dotted;
+        border-width: 5px;
+
+        border-color: black;
+        box-sizing: border-box;
+      }
+      /* optimized way */
+      #four {
+        background-color: rgba(0, 0, 255, 0.166);
+        border: 5px solid rgb(0, 0, 0); /* optimized way */
+
+        box-sizing: border-box;
+        border-left-style: dotted;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>box model borders</h1>
+    <div id="one">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        porro omnis architecto, consectetur sunt quam culpa perspiciatis magni
+        harum est sit nostrum, itaque ut ipsa et iusto eveniet minus voluptate.
+      </p>
+    </div>
+    <div id="two">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        porro omnis architecto, consectetur sunt quam culpa perspiciatis magni
+        harum est sit nostrum, itaque ut ipsa et iusto eveniet minus voluptate.
+      </p>
+    </div>
+    <div id="three">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        porro omnis architecto, consectetur sunt quam culpa perspiciatis magni
+        harum est sit nostrum, itaque ut ipsa et iusto eveniet minus voluptate.
+      </p>
+    </div>
+    <div id="four">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        porro omnis architecto, consectetur sunt quam culpa perspiciatis magni
+        harum est sit nostrum, itaque ut ipsa et iusto eveniet minus voluptate.
+      </p>
+    </div>
+  </body>
+</html>
