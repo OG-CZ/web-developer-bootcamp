@@ -1,0 +1,22 @@
+img {
+  width: 30%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  margin: calc(9% / 6);
+}
+
+nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.045);
+  width: 30%;
+
+  margin-left: calc(9% / 6);
+
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: 600;
+
+  padding: 1.5em 0;
+}
