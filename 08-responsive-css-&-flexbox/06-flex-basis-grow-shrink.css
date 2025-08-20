@@ -1,0 +1,37 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+
+  /* Flex settings */
+  display: flex;
+  flex-direction: row; /* items in a row */
+  justify-content: center; /* center them horizontally */
+  flex-wrap: wrap; /* allow wrapping */
+}
+
+#container div {
+  width: 200px; /* fixed size, but overridden by flex-basis */
+  height: 200px;
+  text-align: center;
+  flex-basis: 200px; /* starting size */
+}
+
+div:nth-of-type(1) {
+  flex-grow: 1; /* will take extra space */
+  flex-shrink: 3; /* shrinks more aggressively if container is small */
+}
+
+div:nth-of-type(5) {
+  flex-grow: 2; /* will grow twice as much as #1 */
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* distribute items vertically (main axis) */
+  align-items: flex-end; /* align items to the right (cross axis) */
+  flex-wrap: wrap;
+
+  /* align content (works only when multiple rows/columns exist due to wrapping) */
+  align-content: center;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background: #e63946;
+  margin: 5px;
+}
+
+/*! Example: override alignment for just one item (NOT WORKING) */
+#container div:nth-child(2) {
+  align-self: flex-start; /* this one ignores align-items: flex-end */
+}
