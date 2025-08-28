@@ -227,10 +227,12 @@ A Bootstrap navbar is just a flexbox container with utility classes that control
 - ms-auto → pushes nav items to the right (using Bootstrap’s margin utilities).
 
 3. Responsive Logic
+
 - On large screens, the navbar-expand-md keeps links visible inline.
 - On small screens, links collapse into a hamburger menu controlled by JavaScript (collapse).
 
 So the flow is:
+
 - Navbar shows brand + menu inline (desktop).
 - Shrink viewport → menu collapses → hamburger appears.
 - Click hamburger → data-bs-toggle="collapse" toggles the hidden menu.
@@ -240,3 +242,71 @@ So the flow is:
 - Add forms, buttons, or dropdowns inside navbar-nav.
 - Use alignment utilities (ms-auto, me-auto) to position items.
 - Swap expand breakpoint (navbar-expand-sm, -lg, -xl, etc.) depending on when you want it to collapse.
+
+### bootstrap icon
+
+- SVG = Scalable Vector Graphics.
+  It’s a way to draw shapes, lines, icons, and illustrations directly in the browser using XML code (instead of pixels like JPG/PNG).
+
+in Bootstrap 5, icons are not bundled with Bootstrap itself — you have to add the Bootstrap Icons package separately.
+
+> as of 2025: https://icons.getbootstrap.com/
+
+### bootstrap other utilities
+
+#### borders
+
+- the border classes are utility classes that let you quickly add or remove borders without writing custom CSS.
+
+#### color utilities
+
+- color utilities are a set of predefined classes you can use to quickly change the text, background, or border color without writing CSS.
+
+#### spacing utiltiies
+
+- spacing utilities in Bootstrap 5 are super handy. They let you add margin or padding without writing CSS.
+
+Bootstrap spacing classes follow this pattern:
+
+{property}{sides}-{size}
+
+property:
+m → margin
+p → padding
+
+sides:
+t → top
+b → bottom
+s → start (left in LTR)
+e → end (right in LTR)
+x → left & right
+y → top & bottom
+blank → all sides
+
+size: 0 to 5 or auto
+
+0 → 0px
+1 → 0.25rem
+2 → 0.5rem
+3 → 1rem
+4 → 1.5rem
+5 → 3rem
+
+auto → automatic margin (usually for flex alignment)
+
+🔹 1. The General Pattern
+
+Bootstrap spacing classes follow this naming convention:
+
+{property}{sides}-{size} // Extra-small screens (xs)
+{property}{sides}-{breakpoint}-{size} // sm, md, lg, xl, xxl
+
+🔹 2. What Each Part Means
+Part Meaning
+property m → margin, p → padding
+sides Which side(s) to apply the spacing:
+t → top, b → bottom, s → start (left in LTR), e → end (right in LTR), x → left & right, y → top & bottom, blank → all sides
+breakpoint Optional. Apply spacing only at or above this screen width:
+sm → ≥576px, md → ≥768px, lg → ≥992px, xl → ≥1200px, xxl → ≥1400px
+size Number 0–5 (or auto):
+0 → 0px, 1 → 0.25rem, 2 → 0.5rem, 3 → 1rem, 4 → 1.5rem, 5 → 3rem
