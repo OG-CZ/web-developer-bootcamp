@@ -175,11 +175,9 @@ All code here is written and practiced as part of my personal learning journey. 
 ## 🚀 My Goal
 
 To go from **zero to full-stack web developer**, building real-world web apps with a strong foundation in both **frontend and backend** development.
---!>
 
 ## 🔗 Follow My Journey
 > 👤 Maintained by [ogcz](https://github.com/og-cz)  
 > 📷 Instagram [@_ogcz](https://www.instagram.com/_ogcz/)  
 > 🌴 Linktr https://linktr.ee/ogcz
-
-
+--!>
